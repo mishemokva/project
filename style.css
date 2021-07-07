@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+    font-family: lato;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #F1E4E6;
+
+}
+
+.menu_background {
+    background: #222222;
+}
+
+.header_menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background: #222222;
+    height: 75px;
+}
+
+.header_menu_logo {
+    width: 112px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+
+.header_menu_navigation {
+    width: 169px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}   
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand_man {
+    margin-left: -220px;
+}
+
+.brand_right {
+    display: flex;
+    padding-left: 63px;
+}
+
+.brand_square {
+    width: 12px;
+    height: 92px;
+    background: #F16D7F;
+    margin-right: 16px;
+}
+
+.pink {
+    color: #F16D7F;
+}
+
+.brand_heading {
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.brand_text {
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.hot_deal {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+    margin-bottom: 30px;
+}
+
+.accesories {
+    margin-bottom: 96px;
+    position: relative;
+}
+
+.men {
+    position: relative;
+}
+
+.hot_deal_text {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    align-items: center;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.text_up {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.featured_heading {
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.featured_text {
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+    text-align: center;
+}
+
+.card_box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 360px;
+    height: 581px;
+    background: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.card_info {
+    padding: 25px 28px 20px 16px;
+}
+
+.heading_mini {
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.card_text {
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    padding-top: 12px;
+    padding-bottom: 18px;
+}
+
+.card_price {
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+}
+
+.browse_button {
+    font-size: 16px;
+    line-height: 47px;
+    color: #F26376;
+    text-align: center;
+    border: 1px solid #F26376;
+    width: 211px;
+    height: 47px;
+    margin: 0 auto;
+}
+
+.browse_link {
+    padding: 14px 38px;
+    text-decoration: none;
+}
+
+.footer {
+    margin-top: 95px;
+    background: #222224;
+}
+
+.advantages {
+    display: flex;
+    justify-content: space-between;
+    padding: 104px 0;
+    text-align: center;
+}
+
+.footer_heading {
+    font-size: 20px;
+    line-height: 24px;
+    color: #FBFBFB;
+    padding-top: 25px;
+    padding-bottom: 16px;
+}
+
+.footer_text {
+    font-size: 14px;
+    line-height: 17px;
+    color: #FBFBFB;
+}
+
+.subscribe {
+    background-image: url(img/subscribe_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+ @font-face {
+    font-family: "lato";
+    font-style: normal; 
+    font-weight: normal; 
+    src: url("lato/Lato-Regular.ttf") format("truetype"); 
+    } 
