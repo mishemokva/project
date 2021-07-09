@@ -4,7 +4,7 @@
     }
 
 body {
-    font-family: lato;
+    font-family: 'Lato', sans-serif;
 }
 
 .container {
@@ -30,20 +30,55 @@ body {
 }
 
 .header_menu_logo {
-    width: 112px;
     display: flex;
-    justify-content: space-between;
     align-items: flex-end;
-    padding-bottom: 20px;
 }
 
 .header_menu_navigation {
-    width: 169px;
     display: flex;
-    justify-content: space-between;
     align-items: flex-end;
-    padding-bottom: 20px;
 }   
+
+.menu_list {
+    position: relative;
+    list-style-type: none;
+    padding: 20px 17px;
+}
+
+.menu_list:hover .mega_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.mega_box {
+    width: 230px;
+    padding: 11px 35px 35px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 67px;
+    display: none;
+}
+
+.menu_heading {
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    padding-top: 24px;
+}
+
+.mega_link {
+    display: block;
+    color: #6F6E6E;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+.mega_link:hover {
+    color: #F16D7F;
+}
 
 .brand {
     display: flex;
@@ -171,9 +206,6 @@ body {
 }
 
 .browse_button {
-    font-size: 16px;
-    line-height: 47px;
-    color: #F26376;
     text-align: center;
     border: 1px solid #F26376;
     width: 211px;
@@ -182,8 +214,15 @@ body {
 }
 
 .browse_link {
-    padding: 14px 38px;
+    font-size: 16px;
+    line-height: 47px;
+    color: #F26376;
     text-decoration: none;
+}
+
+.browse_button:hover {
+    background-color: #F26376;
+    
 }
 
 .footer {
@@ -216,13 +255,58 @@ body {
     background-image: url(img/subscribe_bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    
+}
+
+.subscribe_container {
+    height:  448px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.subscribe_left {
+    width: 360px;
+}
+
+.subscribe_text {
+    padding-top: 38px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222224;
+}
+
+.subscribe_heading {
+    font-size: 24px;
+    line-height: 40px;
+    color: #222224;
+}
+
+.subscribe_right_text {
+    font-size: 18px;
+    line-height: 30px;
+    color: #222224;
+    padding-bottom: 32px;
+}
+
+.input {
+    display: block;
+    size: 256px;
+}
+
+.subscribe_button {
+    display: block;
+}
+
+.subscribe_form {
+    display: block;
+    display: flex;
+    justify-content: center;
 }
 
 
 
- @font-face {
-    font-family: "lato";
-    font-style: normal; 
-    font-weight: normal; 
-    src: url("lato/Lato-Regular.ttf") format("truetype"); 
-    } 
+
+
+

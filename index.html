@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -15,13 +19,37 @@
             <div class="menu_background">
                 <div class="header_menu container">
                     <ul class="header_menu_logo">
-                        <li><a href="index.html"><img src="img/logo.svg" alt="logo"></a></li>
-                        <li><a href="#"><img src="img/search.svg" alt="search"></a></li>
+                        <li class="menu_list" ><a href="index.html"><img src="img/logo.svg" alt="logo"></a></li>
+                        <li class="menu_list" ><a href="#"><img src="img/search.svg" alt="search"></a></li>
                     </ul>
                     <ul class="header_menu_navigation">
-                        <li><a href="#"><img src="img/navigation.svg" alt="navigation"></a></li>
-                        <li><a href="#"><img src="img/contacts.svg" alt="contacts"></a></li>
-                        <li><a href="#"><img src="img/cart.png" alt="cart"></a></li>
+                        <li class="menu_list"><a class="menu_link" href="#"><img src="img/navigation.svg" alt="navigation"></a>
+                            <div class="mega_box">
+                                <div class="menu_box">
+                                    <h3 class="menu_heading">MENU</h3>
+                                    <h3 class="menu_heading pink">MAN</h3>
+                                    <a class="mega_link" href="">Accessories</a>
+                                    <a class="mega_link" href="">Bags</a>
+                                    <a class="mega_link" href="">Denim</a>
+                                    <a class="mega_link" href="">T-Shirts</a>
+                                    <a class="mega_link" href="">Shirts</a>
+                                    <h3 class="menu_heading pink">MAN</h3>
+                                    <a class="mega_link" href="">Accessories</a>
+                                    <a class="mega_link" href="">Bags</a>
+                                    <a class="mega_link" href="">Denim</a>
+                                    <a class="mega_link" href="">T-Shirts</a>
+                                    <a class="mega_link" href="">Shirts</a>
+                                    <h3 class="menu_heading pink">MAN</h3>
+                                    <a class="mega_link" href="">Accessories</a>
+                                    <a class="mega_link" href="">Bags</a>
+                                    <a class="mega_link" href="">Denim</a>
+                                    <a class="mega_link" href="">T-Shirts</a>
+                                    <a class="mega_link" href="">Shirts</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu_list"><a class="menu_link" href="#"><img src="img/contacts.svg" alt="contacts"></a></li>
+                        <li class="menu_list"><a class="menu_link" href="#"><img src="img/cart.png" alt="cart"></a></li>
                     </ul>
                 </div>
             </div>
@@ -151,7 +179,24 @@
                 </div>
             </div>
         </div>
-        <div class="subscribe"></div>
+        <div class="subscribe">
+            <div class="subscribe_container container">
+                <div class="subscribe_left">
+                    <figure>
+                        <img src="img/subscribe_face.png" alt="photo">
+                        <figcaption class="subscribe_text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, <span class="italic">a pulvinar purus condimentum“</span></figcaption>
+                    </figure>
+                </div> 
+                <div class="subscribe_right">
+                    <h2 class="subscribe_heading">SUBSCRIBE</h2>
+                    <p class="subscribe_right_text">FOR OUR NEWLETTER AND PROMOTION</p>
+                    <form action="subscribe_form">
+                        <input class="input" type="email" placeholder="Enter Your Email">
+                        <button class="subscribe_button" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
         <div class="copy"></div>
     </div>
 
