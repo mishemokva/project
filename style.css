@@ -72,7 +72,7 @@ body {
     text-decoration: none;
     font-size: 14px;
     line-height: 17px;
-    margin-top: 12px;
+    padding-top: 12px;
     margin-left: 20px;
 }
 
@@ -218,12 +218,15 @@ body {
     line-height: 47px;
     color: #F26376;
     text-decoration: none;
+    padding: 0 auto;
 }
 
 .browse_button:hover {
     background-color: #F26376;
-    
+    color: #F8F8F8;
 }
+
+.b
 
 .footer {
     margin-top: 95px;
@@ -277,6 +280,10 @@ body {
     color: #222224;
 }
 
+.subscribe_right{
+    width: 400px;
+}
+
 .subscribe_heading {
     font-size: 24px;
     line-height: 40px;
@@ -290,19 +297,44 @@ body {
     padding-bottom: 32px;
 }
 
+.subscribe_form {
+    display: flex;
+    justify-content: center;
+    height: 49px;
+    padding: 0;
+}
+
 .input {
     display: block;
-    size: 256px;
+    background: #E1E1E1;
+    width: 256px;
+    margin: 0;
+    text-indent: 15px;
+    border-radius: 24px 0 0 24px;
+    border: 1px solid #E1E1E1;
+    color: #222224;
+    opacity: 0.67; 
 }
 
 .subscribe_button {
     display: block;
+    width: 100px;
+    background: #F16D7F; 
+    border-radius: 0 24px 24px 0;
+    border: 1px solid #F16D7F;
+    color: #FFFFFF; 
 }
 
-.subscribe_form {
-    display: block;
+.footer_bottom {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    height: 79px;
+}
+
+.allrights {
+    font-size: 16px;
+    line-height: 79px;
+    color: #FBFBFB;
 }
 
 
