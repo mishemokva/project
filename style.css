@@ -46,8 +46,9 @@ body {
 }
 
 .menu_list:hover .mega_box {
-    display: flex;
-    flex-direction: column;
+visibility: visible;
+opacity: 1;
+transform: translateY(0);
 }
 
 .mega_box {
@@ -56,7 +57,10 @@ body {
     background: #FFFFFF;
     position: absolute;
     top: 67px;
-    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all .4s ease;
 }
 
 .menu_heading {
@@ -131,6 +135,18 @@ body {
     position: relative;
 }
 
+.hot_deal_img {
+    transition: filter 0.5s;
+}
+
+.men:hover .hot_deal_img {
+    filter: brightness(50%);
+}
+
+.accesories:hover .hot_deal_img {
+    filter: brightness(50%);
+}
+
 .hot_deal_text {
     font-size: 16px;
     line-height: 19px;
@@ -181,6 +197,27 @@ body {
     margin-bottom: 30px;
 }
 
+.card_img {
+    position: relative;
+}
+
+.add_to_cart {
+    width: 138px;
+    height: 43px;
+    border: 1px solid #FFFFFF;
+    color: black;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+    
+}
+
+.card:hover .card_img {
+    background: rgba(58, 56, 56, 0.86);
+}
+
 .card_info {
     padding: 25px 28px 20px 16px;
 }
@@ -221,12 +258,10 @@ body {
     padding: 0 auto;
 }
 
-.browse_button:hover {
+.browse_button:hover .browse_link, .browse_button:hover {
     background-color: #F26376;
     color: #F8F8F8;
 }
-
-.b
 
 .footer {
     margin-top: 95px;
@@ -282,6 +317,7 @@ body {
 
 .subscribe_right{
     width: 400px;
+    padding-right: 100px;
 }
 
 .subscribe_heading {
@@ -337,6 +373,25 @@ body {
     color: #FBFBFB;
 }
 
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.bottomAncor {
+    background: #FFFFFF;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    margin-right: 7px;
+    text-align: center;
+    color: black;
+}
+
+.bottomAncor:hover {
+    background: #F16D7F;
+    color: #FFFFFF;
+}
 
 
 
