@@ -12,9 +12,12 @@ body {
     margin: 0 auto;
 }
 
+.text-up {
+    text-transform: uppercase;
+}
+
 .header {
     background: #F1E4E6;
-
 }
 
 .menu_background {
@@ -84,20 +87,6 @@ transform: translateY(0);
     color: #F16D7F;
 }
 
-.brand {
-    display: flex;
-    align-items: center;
-}
-
-.brand_man {
-    margin-left: -220px;
-}
-
-.brand_right {
-    display: flex;
-    padding-left: 63px;
-}
-
 .brand_square {
     width: 12px;
     height: 92px;
@@ -107,74 +96,6 @@ transform: translateY(0);
 
 .pink {
     color: #F16D7F;
-}
-
-.brand_heading {
-    font-size: 48px;
-    line-height: 58px;
-}
-
-.brand_text {
-    font-size: 32px;
-    line-height: 38px;
-}
-
-.hot_deal {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 65px;
-    margin-bottom: 30px;
-}
-
-.accesories {
-    margin-bottom: 96px;
-    position: relative;
-}
-
-.men {
-    position: relative;
-}
-
-.hot_deal_img {
-    transition: filter 0.5s;
-}
-
-.men:hover .hot_deal_img {
-    filter: brightness(50%);
-}
-
-.accesories:hover .hot_deal_img {
-    filter: brightness(50%);
-}
-
-.hot_deal_text {
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: #FFFFFF;
-    align-items: center;
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%, -50%);
-}
-
-.text_up {
-    font-size: 24px;
-    line-height: 28px;
-}
-
-.featured_heading {
-    font-size: 30px;
-    line-height: 36px;
-    text-align: center;
-}
-
-.featured_text {
-    font-size: 14px;
-    line-height: 17px;
-    color: #9F9F9F;
-    text-align: center;
 }
 
 .card_box {
@@ -192,30 +113,8 @@ transform: translateY(0);
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
     margin-bottom: 30px;
-}
-
-.card_img {
     position: relative;
-}
-
-.add_to_cart {
-    width: 138px;
-    height: 43px;
-    border: 1px solid #FFFFFF;
-    color: black;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-
-    
-}
-
-.card:hover .card_img {
-    background: rgba(58, 56, 56, 0.86);
 }
 
 .card_info {
@@ -240,27 +139,6 @@ transform: translateY(0);
     font-size: 16px;
     line-height: 19px;
     color: #F16D7F;
-}
-
-.browse_button {
-    text-align: center;
-    border: 1px solid #F26376;
-    width: 211px;
-    height: 47px;
-    margin: 0 auto;
-}
-
-.browse_link {
-    font-size: 16px;
-    line-height: 47px;
-    color: #F26376;
-    text-decoration: none;
-    padding: 0 auto;
-}
-
-.browse_button:hover .browse_link, .browse_button:hover {
-    background-color: #F26376;
-    color: #F8F8F8;
 }
 
 .footer {
@@ -293,7 +171,6 @@ transform: translateY(0);
     background-image: url(img/subscribe_bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    
 }
 
 .subscribe_container {

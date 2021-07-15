@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand_man {
+    margin-left: -220px;
+}
+
+.brand_right {
+    display: flex;
+    padding-left: 63px;
+}
+
+.brand_heading {
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.brand_text {
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.hot_deal {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+    margin-bottom: 30px;
+}
+
+.accesories {
+    margin-bottom: 96px;
+    position: relative;
+}
+
+.men {
+    position: relative;
+}
+
+.hot_deal_img {
+    transition: filter 0.5s;
+}
+
+.men:hover .hot_deal_img {
+    filter: brightness(50%);
+}
+
+.accesories:hover .hot_deal_img {
+    filter: brightness(50%);
+}
+
+.hot_deal_text {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    align-items: center;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.text_up {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.featured_heading {
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.featured_text {
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+    text-align: center;
+}
+
+.add_to_cart_container {
+    width: 138px;
+    height: 43px;
+    line-height: 43px;
+    font-size: 14px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    display: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:36%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    transition: filter 0.5s;
+}
+
+.card:hover .add_to_cart_container {
+    display: flex;
+}
+
+.card:hover .card_img {
+    filter: brightness(50%);
+    transition: filter 0.5s;
+}
+
+.cart_text {
+    padding-left: 8px;
+}
+
+.browse_button {
+    text-align: center;
+    border: 1px solid #F26376;
+    width: 211px;
+    height: 47px;
+    margin: 0 auto;
+}
+
+.browse_link {
+    font-size: 16px;
+    line-height: 47px;
+    color: #F26376;
+    text-decoration: none;
+    padding: 0 auto;
+}
+
+.browse_button:hover .browse_link, .browse_button:hover {
+    background-color: #F26376;
+    color: #F8F8F8;
+}
+
+
+
+
